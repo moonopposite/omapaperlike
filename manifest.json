@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "paperlike",
+  "name": "Paperlike 13K",
+  "version": "1.0.0",
+  "author": "moonopposite",
+  "license": "MIT",
+  "description": "Quick access to Dasung Paperlike 13K 2025 Color display settings (mode, brightness, front-light, refresh).",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Paperlike 13K",
+    "description": "Click to open the Paperlike 13K settings submenu in the Omarchy menu.",
+    "category": "Display",
+    "aliases": ["paperlike", "e-ink", "eink"],
+    "allowMultiple": false,
+    "defaults": {}
+  }
+}

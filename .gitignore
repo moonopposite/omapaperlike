@@ -1,0 +1,13 @@
+# Editor / IDE backups
+*.swp
+*.swo
+*.bak
+*.orig
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Quickshell dev caches (in case someone copies this folder around)
+.qs_crash_*
